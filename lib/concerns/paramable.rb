@@ -2,6 +2,6 @@
 
 Module Paramable
   def to_param
-    self.name.downcase(" ", "-")
+    @name.downcase(" ", "-")
   end
 end
