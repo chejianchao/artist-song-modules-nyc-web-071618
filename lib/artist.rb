@@ -7,7 +7,7 @@ class Artist
   @@artists = []
   extend Findable
   extend Memorable
-  
+  includ Paramable
   def initialize
     @@artists << self
     @songs = []
@@ -26,5 +26,4 @@ class Artist
     songs.each { |song| add_song(song) }
   end
 
-  def 
 end
