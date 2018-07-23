@@ -7,7 +7,7 @@ class Artist
   @@artists = []
   extend Findable
   extend Memorable
-  includ Paramable
+  include Paramable
   def initialize
     @@artists << self
     @songs = []
