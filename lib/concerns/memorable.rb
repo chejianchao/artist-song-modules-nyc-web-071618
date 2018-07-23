@@ -1,10 +1,10 @@
 
 module Memorable
-  def all
-    self.all
+  def count
+    self.all.size
   end
   
   def reset_all
-    self.all = []
+    self.all.clear
   end
 end
